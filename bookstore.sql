@@ -69,10 +69,11 @@ INSERT INTO loans (BOOKID, MEMBERID, LoanDate, ReturnDate) VALUES (3, 3, TO_DATE
 Przykładowe funkcjonalności:
 
 1. Lista wypożyczonych książek
-select * from books where available = 0;
+
+SELECT * FROM books WHERE available = 0;
 
 2. Lista dostępnych książek
-select * from books where available = 1;
+SELECT * FROM books WHERE available = 1;
 
 3. Historia wypożyczeń danego użytkownika (np. Marka Kowalskiego)
 
