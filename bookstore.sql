@@ -82,7 +82,6 @@ JOIN Members ON loans.memberID = members.memberID
 JOIN Books ON loans.bookID = books.bookID
 WHERE members.Name = 'Marek Kowalski';
 
-
 4. Książki aktualnie wypożyczone
 
 SELECT books.Title, members.Name, loans.LoanDate
